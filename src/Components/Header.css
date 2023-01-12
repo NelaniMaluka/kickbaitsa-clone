@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+}
+header {
+    width: 100%;
+    background-color: black;
+    box-shadow: 0px 1px 4px 1px rgb(139, 139, 139);
+    position: fixed;
+}
+header .header-container .Logo-Box{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+}
+header .header-container .Logo-Box img{
+   display: inline; 
+}
+header .header-container .Logo-Box .Logo-Name{
+    display: inline;
+    position: absolute;
+}
+header .header-container .Logo-Box .Logo-Name a{
+    text-decoration: none;
+}
+header .header-container .Logo-Box .Logo-Name span .kick{
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    color: red;
+    font-style: normal;
+}
+header .header-container .Logo-Box .Logo-Name span{
+    color: rgb(64, 163, 244);
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Serif', serif;
+    border-bottom: 2px solid white ;
+}
+header .header-container .menu-content {
+    display: inline-block;
+    float: right;
+}
+header .header-container .menu-content .menu{
+    display: flex;
+    padding-top: 0px;
+}
+header .menu ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+header .menu ul li {
+    list-style: none;
+    display: inline-block;   
+}
+header .menu ul li:first-child {
+    margin-left: 0px;
+}
+header .menu-content-hamburger {
+    background-color: black;
+    float: right;
+    width: 300px;
+    height: 1000px;
+    min-height: 320px;
+    margin-top: -63px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 0px 1px rgb(139, 139, 139);
+    display: none;
+    z-index: 10;
+}
+header .menu-content-hamburger img{
+    width: 40px;
+    height: 40px;
+    margin-left: 200px;
+}
+header .menu-content-hamburger ul{
+    text-align: center;
+}
+header .menu-content-hamburger ul li{
+    list-style: none;
+    margin-top: 50px;
+}
+header .menu-content-hamburger ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+header .open-menu {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: -40px;
+    display: none;
+}
+
+
+
