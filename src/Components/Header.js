@@ -1,9 +1,9 @@
-
-import './Header.css'
+import "./MediaQuerries.css"
+import "./Header1.css"
 
 function head(){
     return(
-    <div className="Container">
+    <div className="Header  Container">
          <div className="header-container ">
             <div className="Logo-Box">
             <a href=""> {/*Put In Link*/}
